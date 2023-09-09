@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .con{
+            width: 100%;
+            height: 700px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+        #box1{
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .btn1{
+            margin-top: 5px;
+            width: 190px;
+            height: 34px;
+            border:0;
+            background-color: rgb(141, 219, 233);
+        }
+        .btn1:hover,.btn2:hover{
+            background-color: orange;
+            cursor: pointer;
+        }
+        #box2{
+            height: 50px;
+            width: 350px;
+            padding: 5px;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .btn2{
+            height: 40px;
+            width: 80px;
+            background-color: rgb(141, 219, 233);
+            border: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div class="con1">
+            <h3>Vertical Navigation Bar</h3>
+            <div id="box1">
+                <button class="btn1">Home</button>
+                <button class="btn1">Java</button>
+                <button class="btn1">Css</button>
+                <button class="btn1">HTML</button>
+                <button class="btn1">Bootstrap</button>
+            </div>
+
+        </div>
+        
+
+        <div class="con2">
+            <h3>Horizontal Navigation Bar</h3>
+            <div id="box2">
+                <button class="btn2">Home</button>
+                <button class="btn2">Java</button>
+                <button class="btn2">Css</button>
+                <button class="btn2">HTML</button>
+                <button class="btn2">Bootstrap</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
